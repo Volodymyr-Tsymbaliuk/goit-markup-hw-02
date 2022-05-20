@@ -1,0 +1,264 @@
+:root {
+    --head-background: #FFFFFF;
+    --maine-background: #E5E5E5;
+    --accent-color: #2196F3;
+    --but-alt-color: #188CE8;
+    --maine-text-color:#757575;
+    --big-text-color: #212121;
+    --footer-background: #2F303A;
+    --footer-mail-tel-color: rgba(255, 255, 255, 0.6);
+    --portfolio-but-color: #F5F4FA;
+    --link-mail-color: #757575;
+}
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #757575;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+/* --------------------------HEADER-------------------------- */
+.header {
+    background: var(--head-background);
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31/26);
+    letter-spacing: 0.03em;
+    color: var(--big-text-color);
+
+}
+
+.logo-web {
+    color: var(--accent-color);
+}
+
+.header-list {
+    
+}
+
+.header-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+    color: var(--big-text-color);
+}
+
+.header-item:hover, 
+.header-item:focus {
+    color: var(--accent-color);
+} 
+
+.header-mail, 
+.header-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+    color: var(--link-mail-color);
+}
+
+
+.header-mail:hover, 
+.header-tel:hover, 
+.header-mail:focus,
+.header-tel:focus {
+    color: var(--accent-color);
+}
+
+
+/* --------------------------Hero-------------------------- */
+.hero {
+    background-color: #2F303A;;
+}
+
+
+.hero-text {
+font-weight: 900;
+font-size: 44px;
+line-height: calc(60/44);
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--head-background); 
+}
+
+.hero-but {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--head-background);
+    background-color: var(--accent-color);
+}
+
+.hero-but:hover {
+background-color: var(--but-alt-color);
+} 
+
+/* --------------------------Our advantages-------------------------- */
+
+.about-adv {
+    background-color: var(--maine-background);
+}
+
+.about-top-text {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: calc(16/14);
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--big-text-color);
+}
+
+.about-bot-text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height:1.71;
+        letter-spacing: 0.03em;
+        
+}
+
+/* --------------------------About Studio-------------------------- */
+.about-studio {
+background-color: var(--maine-background);
+}
+
+.about-studio-text {
+    font-weight: 700;
+    font-size: 36px;
+    line-height:calc(42/36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--big-text-color);
+}
+
+/* --------------------------Our team-------------------------- */
+
+.our-team {
+    background-color: var(--maine-background);
+}
+
+.our-team-maine-text {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: calc(42/36);
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--big-text-color);
+}
+
+.our-team-top-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19/16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--big-text-color);
+}
+
+.our-team-bot-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: calc(19/16);
+        text-align: center;
+        letter-spacing: 0.03em;
+        
+    }
+/* --------------------------Footer-------------------------- */
+
+.footer {
+background-color: var(--footer-background);
+}
+.logo-foot {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: calc(31/26);
+        letter-spacing: 0.03em;
+        color: var(--head-background);
+}
+
+.adress {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--head-background);
+}
+
+.footer-mail {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--footer-mail-tel-color)
+    }
+
+.footer-tel {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--footer-mail-tel-color)
+    }
+
+/* --------------------------Portfolio-------------------------- */
+
+
+.our-worck {
+    background-color: var(--maine-background);
+}
+
+.portfolio-but {
+        color: var(--big-text-color);
+        background-color: var(--portfolio-but-color);  
+}
+
+.portfolio-but:hover,
+.portfolio-but:focus {
+    background-color: var(--accent-color);
+    color: var(--head-background);
+}
+
+.portfolio-maine-top-text {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        color: var(--big-text-color);
+}
+
+.portfolio-maine-bot-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.03em;
+        
+}
